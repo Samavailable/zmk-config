@@ -19,19 +19,19 @@
 
         default_layer {
             bindings = <
-                &kp q    &kp w &kp e &kp r   &kp t     &kp y     &kp u   &kp i     &kp o   &kp p
-                &kp a    &kp s &kp d &kp f   &kp g     &kp h     &kp j   &kp k     &kp l   &kp SEMI
-                &kp z    &kp x &kp c &kp v   &kp b     &kp n     &kp m   &kp COMMA &kp DOT &kp SLASH
+                &kp q    &kp W &kp F &kp P   &kp G     &kp J     &kp L   &kp U     &kp Y   &kp SQT
+                &kp A    &kp R &kp S &kp T   &kp D     &kp H     &kp N   &kp E     &kp I   &kp O
+                &kp Z    &kp X &kp C &kp V   &kp B     &kp K     &kp M   &kp COMMA &kp DOT &kp SLASH
                                      &mo NAV &kp LSHFT &kp SPACE &mo SYM
             >;
         };
 
         symbol_layer {
             bindings = <
-                &kp GRAVE &kp LBKT &kp RBKT  &none     &none  &none  & SQT     &kp MINUS &kp EQUAL &kp BSLH
-                &kp N1    &kp N2   &kp N3    &kp N4    &kp N5 &kp N6 &kp N7    &kp N8    &kp N9    &kp N0
-                &sk LGUI  &sk LALT &sk LSHFT &sk LCTRL &none  &none  &sk RCTRL &sk RSHFT &sk RALT  &sk RGUI
-                                             &mo FUN   &trans &trans &trans
+                &kp SEMI &kp LBKT &kp RBKT  &kp N5    &none    &none  &kp N6    &kp MINUS &kp EQUAL &kp GRAVE
+                &kp N1   &kp N2   &kp N3    &kp N4    &kp BSLH &kp H  &kp N7    &kp N8    &kp N9    &kp N0
+                &sk LGUI &sk LALT &sk LSHFT &sk LCTRL &none    &none  &sk RCTRL &sk RSHFT &sk RALT  &sk RGUI
+                                            &mo FUN   &trans   &trans &trans
             >;
         };
 
