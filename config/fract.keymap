@@ -37,8 +37,8 @@
 
         navigation_layer {
             bindings = <
-                &kp ESC   &kp TAB  &kp UP   &none     &kp HOME &kp PG_UP &kp K_APP &kp PSCRN &kp INS   &kp DEL 
-                &kp CAPS  &kp LEFT &kp DOWN &kp RIGHT &kp END  &kp PG_DN &kp LEFT  &kp DOWN  &kp BSPC  &kp ENTER
+                &kp ESC   &kp TAB  &kp UP   &none     &kp HOME &kp PG_UP &kp PSCRN &kp INS   &kp DEL   &kp BSPC
+                &kp CAPS  &kp LEFT &kp DOWN &kp RIGHT &kp END  &kp PG_DN &none     &kp K_APP &none     &kp ENTER
                 &sk LCTRL &sk LGUI &sk LALT &sk LSHFT &none    &none     &sk RSHFT &sk RALT  &sk RGUI  &sk RCTRL 
                                             &trans    &trans   &trans    &mo FUN
             >;
@@ -46,10 +46,10 @@
 
         function_layer {
             bindings = <
-                &kp F1    &kp F2   &kp F3   &kp F4    &bt BT_SEL 0  &kp SLCK   &kp F9     &kp F10      &kp F11      &kp F12
-                &kp F5    &kp F6   &kp F7   &kp F8    &bt BT_NXT    &kp CAPS   &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &kp PAUSE_BREAK
-                &sk LCTRL &sk LGUI &sk LALT &sk LSHFT &bt BT_CLR    &kp KP_NUM &sk RSHFT  &sk RALT     &sk RGUI     &sk RCTRL 
-                                            &trans    &trans        &trans     &trans
+                &kp F1  &kp F2  &kp F3  &kp F4  &bt BT_SEL 0 &none  &kp KP_NUM      &kp K_VOL_UP &kp K_MUTE &none
+                &kp F5  &kp F6  &kp F7  &kp F8  &bt BT_NXT   &none  &kp PAUSE_BREAK &kp K_VOL_DN &kp SLCK   &none
+                &kp F9  &kp F10 &kp F11 &kp F12 &bt BT_CLR   &none  &sk RSHFT       &sk RALT     &sk RGUI   &sk RCTRL 
+                                        &trans  &trans       &trans &trans
             >;
         };
     };
